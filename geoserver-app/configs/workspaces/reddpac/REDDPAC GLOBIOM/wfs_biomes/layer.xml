@@ -1,0 +1,15 @@
+<layer>
+  <name>wfs_biomes</name>
+  <id>LayerInfoImpl--45dbfa8f:14c2ce5cd49:-7aac</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-78ff667e:12476299803:-7ffa</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--45dbfa8f:14c2ce5cd49:-7aad</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,15 @@
+<layer>
+  <name>FC</name>
+  <id>LayerInfoImpl-4240460f:15a5b5d29a1:e6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1462c7ee:15728b0ca54:-1b4f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4240460f:15a5b5d29a1:e5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

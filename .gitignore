@@ -1,1 +1,6 @@
-/geoserver-app/
+/geoserver-app/configs/security/usergroup/default/users.xml
+/geoserver-app/configs/security/masterpw.digest
+/geoserver-app/configs/security/masterpw/default/passwd
+/geoserver-app/configs/data/security/usergroup/default/users.xml
+/geoserver-app/configs/data/security/masterpw/default/passwd
+/geoserver-app/configs/workspaces/reddpac/REDDPAC\ GLOBIOM/datastore.xml

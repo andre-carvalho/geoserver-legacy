@@ -1,0 +1,15 @@
+<layer>
+  <name>protareas_final</name>
+  <id>LayerInfoImpl--45dbfa8f:14c2ce5cd49:-7ff4</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1462c7ee:157290c3f74:-2a9d</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--45dbfa8f:14c2ce5cd49:-7ff5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

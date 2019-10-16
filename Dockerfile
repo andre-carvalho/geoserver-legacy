@@ -10,8 +10,9 @@ LABEL description="This service provides an instance of GeoServer to restore an 
 ADD tomcat7/setenv.sh /usr/local/tomcat/bin
 
 RUN rm -rf /usr/local/tomcat/webapps/* && \
-mkdir -p /data/geoserver-redd-pac/configs && \
+mkdir -p /data/geoserver/configs && \
 mkdir -p /usr/local/tomcat/webapps/redd-pac
 
 COPY geoserver-app/redd-pac /usr/local/tomcat/webapps/redd-pac
-COPY geoserver-app/configs /data/geoserver-redd-pac/configs
+
+VOLUME /data/geoserver/configs

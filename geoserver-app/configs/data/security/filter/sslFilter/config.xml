@@ -1,0 +1,6 @@
+<sslFilter>
+  <id>f822184:14c292a08c1:-7feb</id>
+  <name>sslFilter</name>
+  <className>org.geoserver.security.filter.GeoServerSSLFilter</className>
+  <sslPort>443</sslPort>
+</sslFilter>
