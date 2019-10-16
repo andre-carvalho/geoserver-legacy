@@ -14,3 +14,6 @@ Before run this docker image you should provide the files described on .gitignor
 ```
 docker run -d --rm --name "redd-pac" -v $(pwd)/geoserver-app/configs:/data/geoserver/configs -p 8085:8080 -t terrabrasilis/geoserver-redd-pac:v1.0
 ```
+
+### To test
+http://terrabrasilis.dpi.inpe.br/geoservices/redd-pac/ows
