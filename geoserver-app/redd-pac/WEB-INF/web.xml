@@ -40,12 +40,10 @@
     <param-value>50</param-value>
   </context-param>
   
-    <!-- 
     <context-param>
       <param-name>PROXY_BASE_URL</param-name>
-      <param-value>http://82.58.146.45/geoserver</param-value>
+      <param-value>http://terrabrasilis.dpi.inpe.br/geoservices/redd-pac</param-value>
     </context-param>
-     -->
 
     <context-param>
       <param-name>GEOSERVER_DATA_DIR</param-name>
