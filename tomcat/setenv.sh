@@ -1,0 +1,1 @@
+CATALINA_OPTS="-XX:OnOutOfMemoryError=\"kill -9 %p\" -Djava.awt.headless=true -Dfile.encoding=UTF-8 -server -Xms1024m -Xmx3072m -Xss1024k -XX:NewSize=768m -XX:+UseParallelGC -XX:MaxGCPauseMillis=500"

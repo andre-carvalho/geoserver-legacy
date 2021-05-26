@@ -1,18 +1,20 @@
-FROM tomcat:7.0-jre7
+FROM tomcat:9.0-jre11
+
+ARG VERSION="1.0.0"
 
 LABEL "br.inpe.dpi"="INPE/DPI-TerraBrasilis"
 LABEL br.inpe.dpi.terrabrasilis="service"
-LABEL version="v1.0"
+LABEL version=${VERSION}
 LABEL author="Andre Carvalho"
 LABEL author.email="andre.carvalho@inpe.br"
-LABEL description="This service provides an instance of GeoServer to restore an old instance of REDD-PAC GeoService."
+LABEL description="This service provides an instance of GeoServer to AMS geoservices."
 
-ADD tomcat7/setenv.sh /usr/local/tomcat/bin
+ADD tomcat/setenv.sh /usr/local/tomcat/bin
 
 RUN rm -rf /usr/local/tomcat/webapps/* && \
 mkdir -p /data/geoserver/configs && \
-mkdir -p /usr/local/tomcat/webapps/redd-pac
+mkdir -p /usr/local/tomcat/webapps/geoams
 
-COPY geoserver-app/redd-pac /usr/local/tomcat/webapps/redd-pac
+COPY geoserver-app/app /usr/local/tomcat/webapps/geoams
 
 VOLUME /data/geoserver/configs
