@@ -13,7 +13,9 @@ ADD tomcat/setenv.sh /usr/local/tomcat/bin
 
 RUN rm -rf /usr/local/tomcat/webapps/* && \
 mkdir -p /data/geoserver/configs && \
-mkdir -p /usr/local/tomcat/webapps/geoams
+mkdir -p /usr/local/tomcat/webapps/geoams && \
+rm -f /etc/localtime && \
+ln -s /usr/share/zoneinfo/Brazil/East /etc/localtime
 
 COPY geoserver-app/app /usr/local/tomcat/webapps/geoams
 
